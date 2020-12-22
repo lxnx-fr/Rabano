@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.materialicons.MaterialIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="680.0" prefWidth="980.0" styleClass="parent" stylesheets="@main.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="de.laurinfrank.fxml.MainController">
+   <children>
+      <Pane layoutX="2.0" layoutY="140.0" prefHeight="400.0" prefWidth="980.0" styleClass="pane">
+         <children>
+            <Label layoutX="45.0" layoutY="68.0" text="Don't have an account?" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="89.0" layoutY="121.0" prefHeight="64.0" prefWidth="222.0" text="Lorem ipsum is a dummy text for websites." textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="89.0" layoutY="326.0" mnemonicParsing="false" onAction="#openSignUp" prefHeight="35.0" prefWidth="183.0" styleClass="main-button" text="Sign Up" wrapText="true" />
+            <Label layoutX="591.0" layoutY="68.0" styleClass="pane" text="Already have an account?" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="649.0" layoutY="113.0" prefHeight="64.0" prefWidth="222.0" text="Lorem ipsum is a dummy text for websites." textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button layoutX="669.0" layoutY="320.0" mnemonicParsing="false" onAction="#openSignIn" prefHeight="35.0" prefWidth="183.0" styleClass="main-button" text="Sign In" />
+            <VBox id="vbox" fx:id="vbox" layoutX="33.0" layoutY="-40.0" prefHeight="480.0" prefWidth="480.0" styleClass="white-pane" />
+            <MaterialIconView fx:id="closeIcon" fill="WHITE" glyphName="CLOSE" layoutX="956.0" layoutY="24.0" onMouseClicked="#close" size="23" styleClass="close-button" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

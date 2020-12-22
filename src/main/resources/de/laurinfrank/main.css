@@ -1,0 +1,79 @@
+
+* {
+    -fx-primary: #214a80;
+    -fx-primary-dark: rgba(21, 74, 128, 0.55);
+    -fx-red: rgb(171, 56, 56);
+
+    -fx-background-dark: #212121;
+    -fx-border-dark: rgb(38, 38, 38);
+
+    -fx-background-light: rgb(40, 40, 40);
+    -fx-border-light: rgb(38, 38, 38);
+}
+
+.parent {
+    -fx-background-color: transparent;
+}
+
+.pane {
+    -fx-background-color: -fx-background-dark;
+    -fx-border-color: -fx-border-dark;
+    -fx-border-radius: 1px;
+}
+
+.main-button {
+    -fx-background-color: -fx-primary;
+    -fx-background-radius: 5px;
+    -fx-border-color: #2d2d2d;
+    -fx-border-radius: 5px;
+    -fx-border-width: 2px;
+    -fx-text-fill: #ffffff;
+}
+
+.close-button {
+    -fx-text-fill: #fff;
+}
+
+.close-button:hover {
+    -fx-fill: -fx-red;
+    -fx-effect: dropshadow(three-pass-box, rgba(255, 0, 0, 0.3), 0.5, 0, 1, 0.5);
+}
+
+.white-pane {
+    -fx-background-color: #ffffff;
+}
+
+.tf {
+    -fx-background-color: transparent;
+}
+
+
+
+
+
+/**
+    sign_in.fxml , sign_up.fxml Styling
+ */
+.vbox-panel {
+    -fx-border-color: -fx-border-light;
+    -fx-background-color: -fx-background-light;
+    -fx-border-radius: 0.1px;
+}
+
+.vbox-btn {
+    -fx-background-color: -fx-primary;
+    -fx-background-radius: 5px;
+}
+
+.vbox-btn:hover {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 0);
+    -fx-background-color: -fx-primary-dark;
+}
+
+.vbox-inputfield {
+    -fx-background-color: transparent;
+    -fx-border-color: #dedee4;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-padding: 5px;
+    -fx-text-fill: #fff;
+}
