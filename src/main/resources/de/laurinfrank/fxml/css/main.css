@@ -1,0 +1,129 @@
+
+* {
+    -fx-primary-old: #214a80;
+    -fx-primary-dark-old: rgba(21, 74, 128, 0.55);
+    -fx-red: #f85f57;
+    -fx-primary-gradient-dark: radial-gradient(radius 360%, rgb(107, 51, 146) 0.0, rgb(68, 30, 140) 0.52, rgb(59, 58, 58) 1);
+    -fx-primary-gradient: radial-gradient(radius 360%, rgb(167, 93, 241) 0.0, rgb(69, 21, 159) 0.52, rgb(59, 58, 58) 1);
+    -fx-tidal-gradient: radial-gradient(radius 360%, rgba(251, 190, 126, 1) 0%, rgba(77, 66, 58, 1) 70%);
+    -fx-spotify-gradient: radial-gradient(radius 360%, rgb(59, 214, 96) 0%, rgb(46, 141, 63) 70%);
+    -fx-apple-music-gradient: radial-gradient(radius 360%, rgb(217, 67, 81) 0%, rgb(248, 39, 66) 32%, rgb(45, 40, 40) 64%);
+
+    -fx-background-dark: #212121;
+    -fx-border-dark: rgb(38, 38, 38);
+
+    -fx-background-light: rgb(40, 40, 40);
+    -fx-border-light: rgb(38, 38, 38);
+}
+
+
+/*
+   Everywhere
+ */
+
+.pane {
+    -fx-background-color: -fx-background-dark;
+    -fx-border-color: -fx-border-dark;
+    -fx-display-caret: center;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+
+.btn-window {
+    -fx-fill: transparent;
+}
+
+.btn-window:hover {
+    -fx-fill: rgba(0, 0, 0, 0.40);
+    -fx-effect: dropshadow(gaussian, rgba(124, 115, 115, 0.3), 0.5, 0, 1, 0.85);
+}
+
+/*
+    Main
+ */
+.white-pane {
+    -fx-background-color: white;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+}
+
+.btn-settings:hover {
+    -fx-fill: -fx-primary-gradient;
+    -fx-effect: dropshadow(gaussian, rgb(122, 67, 203), 0.5, 0, 1, 0.5);
+}
+
+.btn-file {
+    -fx-background-color: -fx-primary-gradient;
+    -fx-background-radius: 5px;
+    -fx-text-fill: black;
+}
+
+.btn-file:hover {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 0);
+    -fx-background-color: rgba(255, 255, 255, 1);
+}
+
+.btn-spotify {
+    -fx-background-color: -fx-spotify-gradient;
+    -fx-background-radius: 5px;
+    -fx-text-fill: black;
+}
+
+.btn-spotify:hover {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 0);
+    -fx-background-color: rgba(255, 255, 255, 1);
+}
+
+.btn-apple-music {
+    -fx-background-color: -fx-apple-music-gradient;
+    -fx-background-radius: 5px;
+    -fx-text-fill: black;
+}
+
+.btn-apple-music:hover {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 0);
+    -fx-background-color: rgba(255, 255, 255, 1);
+}
+
+.btn-tidal {
+    -fx-background-color: -fx-tidal-gradient;
+    -fx-background-radius: 5px;
+    -fx-text-fill: black;
+}
+
+.btn-tidal:hover {
+    -fx-effect: dropshadow(one-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 0);
+    -fx-background-color: rgba(255, 255, 255, 1);
+}
+
+
+/*
+    settings.fxml
+ */
+
+.settings-tab {
+    -fx-background-color: -fx-background-light;
+    -fx-border-radius: 15px;
+    -fx-background-radius: 15px;
+    -fx-display-caret: center;
+}
+
+.btn-tab {
+    -fx-background-color: -fx-background-dark;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.btn-tab:hover {
+    -fx-background-color: -fx-primary-gradient;
+    -fx-effect: dropshadow(gaussian, rgb(122, 67, 203), 0.5, 0, 1, 0.5);
+}
+
+.btn-home:hover {
+    -fx-fill: -fx-primary-gradient;
+    -fx-effect: dropshadow(gaussian, rgb(122, 67, 203), 0.5, 0, 1, 0.5);
+}
+
+
+
+

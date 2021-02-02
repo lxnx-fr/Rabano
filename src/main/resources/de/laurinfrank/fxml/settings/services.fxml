@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import de.jensd.fx.glyphs.materialdesignicons.MaterialDesignIconView?>
+<?import javafx.scene.layout.Pane?>
+<Pane xmlns:fx="http://javafx.com/fxml/1" prefHeight="315.0" prefWidth="630.0" styleClass="settings-tab"
+      stylesheets="@../css/main.css" xmlns="http://javafx.com/javafx/15.0.1"
+      fx:controller="de.laurinfrank.fxml.settings.SettingsController">
+   <children>
+      <MaterialDesignIconView glyphName="SPOTIFY" layoutX="219.0" layoutY="210.0" size="224"/>
+   </children>
+</Pane>
